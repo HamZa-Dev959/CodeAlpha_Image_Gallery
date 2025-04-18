@@ -94,6 +94,9 @@ nav ul li a:hover {
     font-size: 23px;
     background: linear-gradient(to right, #1095d8, #0769aa);
     background: linear-gradient(to bottom, #00aaff, #3e68f1);
+    justify-content: start;
+    align-items: start;
+    text-align: center;
 
 }
 
@@ -107,12 +110,13 @@ footer ul li a {
     text-decoration: none;
     display: flex;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 15%;
+    margin-left: -4.5%;
     justify-content: center;
     background-color: #013c7a;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 10px 10px 20px #041f3b;
 
@@ -241,21 +245,22 @@ ul image {
     background-color: #013c7a;
     color: #f4f4f4;
     font-family: sans-serif;
-    width: 500px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px #041f3b;
-    font-size: 20px;
+    font-size: 25px;
     word-spacing: 1px;
     align-items: center;
-
+    height: 500px;
+    width: 550px;
 }
 
-footer {
-   display: flex;
-   flex-direction: column;
-  border:none;
-   width: 100%;
-   border-top:4px solid black;
-border-bottom: 0px;
+.about:hover {
+
+    display: flex;
+    transform: scale(1.1);
+    transition-duration: .5s;
+    transform-origin: top center;
+    box-shadow: 10px 10px 20px #041f3b;
+
 }
